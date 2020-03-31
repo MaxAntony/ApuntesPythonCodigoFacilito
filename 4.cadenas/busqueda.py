@@ -1,5 +1,6 @@
 mensaje = 'Este es un texto un poco grande en cuanto a longitud de caracteres se refiere'
 # primera forma
+# Contamos la cantidad de coincidencias
 resultado = mensaje.count('texto')  # devuelve un entero
 print(resultado)
 print(mensaje.count('e'))
@@ -20,10 +21,11 @@ resultado = mensaje[resultado:resultado + len('texto')]
 print(resultado)
 
 # Que pasa si el string no se encuentra
-print(mensaje.find('codigo'))
+print(mensaje.find('codigo'))  # devuelve -1
 
-# saber si un string comienza o termina con otro
-resultado = mensaje.startswith('Este')  # devuelve un boolean
+# saber si una cadena comienza o termina con
+# devuelve un true si comienza con 'Este'
+resultado = mensaje.startswith('Este')
 print(resultado)
 print(mensaje.startswith('este'))  # es case sensitive
 

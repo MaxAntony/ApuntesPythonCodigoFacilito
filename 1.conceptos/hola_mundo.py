@@ -1,4 +1,4 @@
-print('hola mundo')
+print('Hello world')
 
 nombre_tutor = 'max'
 print(nombre_tutor)
@@ -29,17 +29,15 @@ print(menor_igual)
 print(igual)
 print(diferente)
 
-# operadores logicos
-resultado = True and True and diferente
-print(resultado)
+print('\noperadores logicos')
+print(True and True and diferente)
+print(True and True and mayor)
+print(True or True or False)
+print(not True)
 
-resultado = True and True and mayor
-resultado = True or True or False
-
-resultado = not True
-
-# comparar si dos valores enteros son iguales/
-igual = variable_uno is variable_dos
+print('\ncomparar si dos valores enteros son iguales')
+print(variable_uno is variable_dos)
+print(variable_uno == variable_dos)
 
 # entrada por teclado
 print('Cual es tu nombre')
@@ -49,3 +47,6 @@ peso = float(input('Cual es tu peso\n'))
 autorizado = input('estas autorizado (si/no)\n') == 'si'
 print('Hola', nombre, ' de ', edad, ' años y ', peso, ' de peso')
 print('autorizado: ', autorizado)
+
+# lista de todas las palabras reservadas
+# https://www.programiz.com/python-programming/keyword-list

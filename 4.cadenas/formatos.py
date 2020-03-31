@@ -7,6 +7,7 @@ print(texto.isupper())
 print(texto.islower())
 print(texto.lower().islower())
 print(texto.title())
+# reemplazara las coincidencias
 print(texto.replace('python', 'ruby'))
 # python sera reemplazado una sola vez
 print(texto.replace('python', 'ruby', 1))
@@ -21,7 +22,7 @@ version = '3'
 resultado = 'Curso de %s %s' % (curso, version)
 print(resultado)
 
-# con metodo format
+# con metodo format(recomendado)
 resultado = 'curso de {} {}'.format(curso, version)
 print(resultado)
 

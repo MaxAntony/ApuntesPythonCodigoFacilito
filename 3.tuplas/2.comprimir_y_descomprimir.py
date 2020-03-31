@@ -38,3 +38,12 @@ tupla = (10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400)
 
 # de esta manera
 primer, segundo, *_, ultimo = tupla
+
+# La función incorporada (i.e. no necesita importarse) zip() toma como argumento dos o más objetos iterables (idealmente cada uno de ellos con la misma cantidad de elementos) y retorna un nuevo iterable cuyos elementos son tuplas que contienen un elemento de cada uno de los iteradores originales.
+
+paises = ["China", "India", "Estados Unidos", "Indonesia"]
+poblaciones = [1391, 1364, 327, 264]
+# Esta función es especialmente útil en bucles for para acceder a los elementos de dos o más iterables simultáneamente:
+
+for pais, poblacion in zip(paises, poblaciones):
+    print("{}: {} millones de habitantes.".format(pais, poblacion))

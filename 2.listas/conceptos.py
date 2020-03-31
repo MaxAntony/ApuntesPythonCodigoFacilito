@@ -24,7 +24,7 @@ print(sublista)
 # decimos que desde el 1 hasta el indice 7 saltando de 2 en 2
 sublista = lista[1:7:2]
 print(sublista)
-# hasta el final
+# hasta el final saltando de 2 en 2
 sublista = lista[1::2]
 print(sublista)
 

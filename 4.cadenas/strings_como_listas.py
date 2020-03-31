@@ -18,6 +18,7 @@ print(nuevo_string)
 nuevo_string = ' - '.join(resultado)
 print(nuevo_string)
 
+# volviendo a la forma original
 nuevo_string = separador.join(resultado)
 print(nuevo_string)
 
